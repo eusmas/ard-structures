@@ -1,7 +1,7 @@
 #include <Arduino.h>
-#include <queue.h>
+#include <bufferCircular.h>
 
-Queue queue = Queue(10);
+Buffer queue = Buffer(10);
 
 void setup(){
     Serial.begin(115200);
